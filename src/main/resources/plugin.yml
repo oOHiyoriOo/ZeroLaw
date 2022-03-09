@@ -1,0 +1,7 @@
+name: ZeroLaw
+version: '${project.version}'
+main: gg.discord.zerotwo.zerolaw.Main
+api-version: 1.18
+prefix: ZeroLaws
+authors: [ 210428907386699777 ]
+description: Helpers to force some laws.

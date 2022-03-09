@@ -1,1 +1,2 @@
 # ZeroLaw
+Administrations bezogene Tweaks.
