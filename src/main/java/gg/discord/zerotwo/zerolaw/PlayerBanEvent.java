@@ -51,7 +51,7 @@ public final class PlayerBanEvent implements Listener {
             Bukkit.getScheduler().runTaskAsynchronously(this.plugin, new DRunnable(message){
                 @Override
                 public void run() {
-                    DHook webhook = new DHook("https://discord.com/api/webhooks/943460370012577842/0FnG11r9kyHF6-hZm8xKUVbkL2cvIOXeURXkgYk8m5p5IUWe6Dq0sxzrQavf0HXghagB");
+                    DHook webhook = new DHook("<webhook>");
                     webhook.setContent(this.msg);
                     webhook.setTts(false);
                     try {
